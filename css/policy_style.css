@@ -1,0 +1,6 @@
+@import url("./styles.css");
+.policy-section{
+    position: relative;
+    align-self: center;
+    background-color: var(--color-very-dark-gray);
+}

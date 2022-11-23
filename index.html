@@ -1,136 +1,165 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>EC</title>
-        <meta name="description" content="About Ec">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/styles.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ec</title>
+    <meta name="description" content="About Ec" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="navbar" id="#navbar">
+        <li><a href="#about-me" onclick="showPage('about-me')">About me</a></li>
+        <li><a  href="#contact" onclick="showPage('contact')">Contact me</a></li>
+        <li><a href="#experience" onclick="showPage('experience')">Experience</a></li>
+        <li><a href="#policy" onclick="showPage('policy')">Policy</a></li>
+      </ul>
+      <a id="menuBtn" href="javascript:void(0)" onclick="openNav()"
+        ><img src="images/icon-hamburger.svg" alt="menu"
+      /></a>
+    </nav>
 
-        <nav>
-            <img src="images/logo.svg" alt="logo"/>
-            <ul class="navbar" id="#navbar">
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Contact me</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Policy</a></li>
-            </ul>
-            <a id="menuBtn" href="javascript:void(0)" onclick="openNav()"><img src="images/icon-hamburger.svg" alt="menu"/></a> 
-          </nav>
-        
-          <!-- The overlay -->
-          <div id="menu" class="overlay">
-        
-            <!-- Button to close the overlay navigation -->
-              <img class = "nav-logo" src="images/logo.svg" alt="logo"/>
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="menu"/></a>
-          
-            <!-- Overlay content -->
-            <div class="overlay-content">
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Contact me</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Policy</a></li>
-            </div>
-        
-          </div>
-           <!-- The overlay -->
-        
-          <header>
-            <h1>
-              Immersive 
-              experiences 
-              that deliver
-            </h1>
-          </header>
-          <section class="section-history">
-            <img src="images/desktop/image-interactive.jpg" alt="interactive">
-            <article>
-              <h2>The leader in interactive VR</h2>
-              <p>
-                Founded in 2011, Loopstudios has been producing world-class virtual reality 
-                projects for some of the best companies around the globe. Our award-winning 
-                creations have transformed businesses through digital experiences that bind 
-                to their brand.</p>
-            </article>
-          </section>
-        
-          <div class="title-creations">
-            <h2>Our creations</h2>
-            <a href="#" class="btn-see">See all</a>
-          </div>
-        
-          <section class="section-creations">
-              <div class="creation" id="creation1">
-                <img src="images/desktop/image-deep-earth.jpg" alt="Deep earth"/>
-                <h3>Deep earth</h3>
-              </div>
-              <div class="creation" id="creation2">
-                <img src="images/desktop/image-night-arcade.jpg" alt="Night arcade" />
-                <h3>Night arcade</h3>
-              </div>
-              <div class="creation" id="creation3">
-                <img src="images/desktop/image-soccer-team.jpg" alt="Soccer team VR" />
-                <h3>Soccer team VR</h3>
-              </div>
-              <div class="creation" id="creation4">
-                <img src="images/desktop/image-grid.jpg" alt="The grid" />
-                <h3>The grid</h3>
-              </div>
-              <div class="creation"  id="creation5">
-                <img src="images/desktop/image-from-above.jpg" alt="From up above VR"/>
-                <h3>From up above VR</h3>
-              </div>
-              <div class="creation" id="creation6">
-                <img src="images/desktop/image-pocket-borealis.jpg" alt="Pocket borealis" />
-                <h3>Pocket borealis</h3>
-              </div>
-              <div class="creation" id="creation7">
-                <img src="images/desktop/image-curiosity.jpg" alt="The curiosity" />
-                <h3>The curiosity</h3>
-              </div>
-              <div class="creation" id="creation8">
-                <img src="images/desktop/image-fisheye.jpg" alt="Make it fisheye" />
-                <h3>Make it fisheye</h3>
-              </div>
-              <a href="#" class="btn-see-bottom">See all</a>    
-          </section>
-          
-        
-         
-        <footer>
-        
-         
-            <img class="logo-foot" src="images/logo.svg" alt="logo"/>
-        
-            <ul class="nav-footer">
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Contact me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Policy</a></li>
-            </ul>
-        
-            <div class="icons">
-              <a href="#"><img class="social" src="images/icon-facebook.svg" alt="faceboock"></a>
-              <a href="#"><img class="social" src="images/icon-twitter.svg" alt="twitter"></a>
-              <a href="#"><img class="social" src="images/icon-pinterest.svg" alt="pinterest"></a>
-              <a href="#"><img class="social" src="images/icon-instagram.svg" alt="instagram"></a>
-            </div>
-            
-            <h5>
-              © 2022 Ernesto-ca
-            </h5>
-        
-         
-        </footer>
-          
-          
+    <!-- The overlay -->
+    <div id="menu" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <img class="nav-logo" src="images/logo.svg" alt="logo" />
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        ><img src="images/icon-close.svg" alt="menu"
+      /></a>
 
-        
-        
-        <script src="" async defer></script>
-    </body>
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <li><a href="#about" onclick="showAbout">About me</a></li>
+        <li><a href="#content" onclick="showContact">Contact me</a></li>
+        <li><a href="./experience.html">Experience</a></li>
+        <li><a href="./policy.html">Policy</a></li>
+      </div>
+    </div>
+    <!-- The overlay -->
+
+    <header>
+      <h1>"Programming is my passion, Not my job."</h1>
+    </header>
+
+
+    <section id="content-show"></section>
+    <section id="about-me">
+      <section class="about-me-section">
+        <div id="img-back">
+          <img src="images/desktop/me.png" alt="interactive" />
+        </div>
+        <article>
+          <h2 class="about-me">I'm Ernesto Cabañas</h2>
+          <p>
+            As a software developer, I always feel motivated to learn more, learn
+            about new trends in technology, I am passionate about solving real
+            problems with software, as well as innovating and transforming ideas
+            into accomplished goals.
+          </p>
+        </article>
+      </section>
+      <div class="title-background">
+        <h2>My Background</h2>
+      </div>
+  
+      <section class="section-stories">
+        <div class="story">
+          <p>
+            Since I was in highschool I have been really into computers, software
+            and problem solving, I studied the career of Informatics, on second
+            grade I met my passion: programming, starting with Java then I learned
+            more of structure programming, OOP, algorithms, also other topics like
+            networks, routing, topologies and more, on 4th grade I met my second
+            passion: Android Application Development, thanks to that I'm very into
+            create apps with awesome ideas and originality, finally but not least,
+            the last two grades I learned to create Web Sites with JS, PHP, HTML
+            and CSS, but everything has a final, so my highschool journey finished
+            in 2017 but a new adventure started...
+          </p>
+  
+          <div class="story-image" id="story1">
+            <img
+              src="images/my_background/highschool.jpg"
+              alt="I'm really concentrated!"
+            />
+          </div>
+        </div>
+  
+        <div class="story">
+          <div class="story-image" id="story2">
+            <img
+              src="images/my_background/university.png"
+              alt="I'm very excited!"
+            />
+          </div>
+          <p>
+            Well, Here comes the university!, I was in Computer System Engineering
+            career, where I learned more topics of the wonder world of
+            informatics, also hardware, advanced networks and more, additionally I
+            met my third passion: Learning, I identify myself as a good
+            autodidact, I always look for new sources of knowledge, such as
+            Undemy, Itoo, Coursera, Online books, Codelabs (from Google), and so
+            on, learning something new every day is a goal for me, as well as
+            practicing it, due this passion, I could entered to local tournaments
+            of innovation, with <b>YOVIGILO</b> a mobile application only for
+            Android where a real time chat and gps locator was used in order to
+            keeping the safety of neighborhoods, we almost win the regional
+            tournament!, but well, all my path in the university was challenging
+            but not impossible, so I finished my career on december 2021, and
+            that's it for now!
+          </p>
+        </div>
+      </section>
+  
+      <p class="last-comment">If you're more interested about me:</p>
+      <a class="btn btn-contact" href="#content" onclick="showPage('contact')">Contact me</a>
+  
+    </section>
+    
+    <img class="footer-wave" src="../images/waves/footer_wave.svg" />
+    <footer>
+      <img class="logo-foot" src="images/logo_white.svg" alt="logo" />
+
+      <ul class="nav-footer">
+        <li><a href="#">About me</a></li>
+        <li><a href="./contact.html">Contact me</a></li>
+        <li><a href="./experience.html">Experience</a></li>
+        <li><a href="./policy.html">Policy</a></li>
+      </ul>
+
+      <div class="icons">
+        <a href="#"
+          ><img
+            class="social"
+            src="images/icon-linkedin.svg"
+            alt="linkedin"
+            height="41px"
+            width="41px"
+        /></a>
+        <a href="#"
+          ><img
+            class="social"
+            src="images/icon-github.svg"
+            alt="github"
+            height="41px"
+            width="41px"
+        /></a>
+        <a href="#"
+          ><img
+            class="social"
+            src="images/icon-playstore.svg"
+            alt="playstore"
+            height="41px"
+            width="41px"
+        /></a>
+      </div>
+
+      <h5>© 2022 Ec</h5>
+    </footer>
+
+    <iframe src="" seamless id="content" style="display: none;" onload="setContent()"></iframe>
+    <script src="./js/scripts.js" ></script>
+  </body>
 </html>

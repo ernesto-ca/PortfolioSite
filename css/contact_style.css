@@ -1,0 +1,11 @@
+@import url("./styles.css");
+
+.contact-form{
+    position: relative;
+    align-self: center;
+    background-color: var(--color-very-dark-gray);
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
