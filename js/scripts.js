@@ -1,4 +1,4 @@
-const indexContent = document.getElementById("about-me");
+const indexContent = document.getElementById("about-me-content");
 const contentFrame = document.getElementById("content");
 const contentShow = document.getElementById("content-show");
 const contactTitle = "It would be a pleasure to meet you.";
@@ -16,7 +16,7 @@ function closeNav() {
 }
 
 function showPage(pageName) {
-  if (pageName != "about-me") {
+  if (pageName != "about-me-content") {
     indexContent.style.display = "none";
     contentShow.style.display = "block";
     contentFrame.src = pageName + ".html";

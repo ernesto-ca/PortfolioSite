@@ -1,6 +1,17 @@
-@import url("./styles.css");
-.policy-section{
-    position: relative;
-    align-self: center;
-    background-color: var(--color-very-dark-gray);
+.policy{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
+
+.policy h2, .policy p{
+
+    margin-bottom: 2rem;
+}
+.policy h2{
+    text-align: start;
+    font-size: larger;
+   
+}
+

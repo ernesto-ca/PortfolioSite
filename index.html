@@ -7,11 +7,16 @@
     <meta name="description" content="About Ec" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/contact_style.css" />
+    <link rel="stylesheet" href="./css/policy_style.css" />
+  
+    
+  <link rel="stylesheet" href="./css/experience_style.css" />
   </head>
   <body>
     <nav>
       <ul class="navbar" id="#navbar">
-        <li><a href="#about-me" onclick="showPage('about-me')">About me</a></li>
+        <li><a href="#about-me-content" onclick="showPage('about-me-content')">About me</a></li>
         <li><a  href="#contact" onclick="showPage('contact')">Contact me</a></li>
         <li><a href="#experience" onclick="showPage('experience')">Experience</a></li>
         <li><a href="#policy" onclick="showPage('policy')">Policy</a></li>
@@ -31,10 +36,10 @@
 
       <!-- Overlay content -->
       <div class="overlay-content">
-        <li><a href="#about" onclick="showAbout">About me</a></li>
-        <li><a href="#content" onclick="showContact">Contact me</a></li>
-        <li><a href="./experience.html">Experience</a></li>
-        <li><a href="./policy.html">Policy</a></li>
+        <li><a href="#about-me-content" onclick="showPage('about-me-content')">About me</a></li>
+        <li><a  href="#contact" onclick="showPage('contact')">Contact me</a></li>
+        <li><a href="#experience" onclick="showPage('experience')">Experience</a></li>
+        <li><a href="#policy" onclick="showPage('policy')">Policy</a></li>
       </div>
     </div>
     <!-- The overlay -->
@@ -44,14 +49,14 @@
     </header>
 
 
-    <section id="content-show"></section>
-    <section id="about-me">
+   
+    <section id="about-me-content">
       <section class="about-me-section">
         <div id="img-back">
           <img src="images/desktop/me.png" alt="interactive" />
         </div>
         <article>
-          <h2 class="about-me">I'm Ernesto Cabañas</h2>
+          <h2 class="about-me-title">I'm Ernesto Cabañas</h2>
           <p>
             As a software developer, I always feel motivated to learn more, learn
             about new trends in technology, I am passionate about solving real
@@ -98,7 +103,7 @@
             Well, Here comes the university!, I was in Computer System Engineering
             career, where I learned more topics of the wonder world of
             informatics, also hardware, advanced networks and more, additionally I
-            met my third passion: Learning, I identify myself as a good
+            met my third passion: learning, I identify myself as a good
             autodidact, I always look for new sources of knowledge, such as
             Undemy, Itoo, Coursera, Online books, Codelabs (from Google), and so
             on, learning something new every day is a goal for me, as well as
@@ -111,22 +116,22 @@
             that's it for now!
           </p>
         </div>
+        <a class="btn btn-contact" href="#content" onclick="showPage('contact')">Contact me</a>
       </section>
   
-      <p class="last-comment">If you're more interested about me:</p>
-      <a class="btn btn-contact" href="#content" onclick="showPage('contact')">Contact me</a>
+     
   
     </section>
-    
+    <section id="content-show"></section>
     <img class="footer-wave" src="../images/waves/footer_wave.svg" />
     <footer>
       <img class="logo-foot" src="images/logo_white.svg" alt="logo" />
 
       <ul class="nav-footer">
-        <li><a href="#">About me</a></li>
-        <li><a href="./contact.html">Contact me</a></li>
-        <li><a href="./experience.html">Experience</a></li>
-        <li><a href="./policy.html">Policy</a></li>
+        <li><a href="#about-me-content" onclick="showPage('about-me-content')">About me</a></li>
+        <li><a  href="#contact" onclick="showPage('contact')">Contact me</a></li>
+        <li><a href="#experience" onclick="showPage('experience')">Experience</a></li>
+        <li><a href="#policy" onclick="showPage('policy')">Policy</a></li>
       </ul>
 
       <div class="icons">

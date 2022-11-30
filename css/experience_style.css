@@ -1,6 +1,36 @@
-@import url("./styles.css");
-.experience-section{
-    position: relative;
-    align-self: center;
-    background-color: var(--color-very-dark-gray);
+.experience, .experience-back{
+    display: flex;
+}
+.experience{
+    flex-direction: row;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.experience article{
+    width: 70%;
+}
+.experience-back{
+    
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+    height: 21rem;
+    width:  30%;
+    background-color: #000;
+    border-radius: 59% 59% 59% 59% / 74% 37% 63% 26% ;
+}
+h4{
+    color: var(--color-black);
+    font-size: 2vmax;
+    margin-bottom: 1rem;
+}
+.experience-back h2{
+    color: white;
+}
+
+
+#XP1,#XP3{
+    flex-direction: row-reverse;
 }

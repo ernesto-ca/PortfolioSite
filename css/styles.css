@@ -132,29 +132,32 @@ h1 {
 body{
     background: linear-gradient(180deg, rgb(200, 200, 200) 20%, rgb(225, 225, 225) 80%, rgb(255, 255, 255) 100%);
 }
-body, body #index{
+body, body #index, body #content-show{
     display: flex;
     flex-direction: column;
+}
+#content-show{
+    padding: 0rem;
+}
+
+h2,h3,h4{
+    font-family: var(--font-family-trispace);
+    line-height: 110%;
 }
 h3 {
     margin: 2rem;
     font-size: 2vmax;
-    
-    font-family: var(--font-family-trispace);
     font-weight: 400;
-    line-height: 110%;
     color: white;
     z-index: 999;
 }
 h2 {
     font-size: 3vmax;
-
-    font-family: var(--font-family-trispace);
     font-weight: 600;
-    line-height: 110%;
     color: var(--color-black);
     text-align: center;
 }
+
 p {
     font-size: var(--font-size-body);
     color: var(--color-black);
@@ -163,8 +166,8 @@ p {
     line-height: 180%;
     font-size: larger;
 }
-.btn {
-    display: unset;
+.btn,input[type=submit] {
+  
     width: 50%;
     height: 20%;
     align-self: center;
@@ -184,48 +187,52 @@ p {
     transition: background-color 0.1s ease;
 }
 
-.btn:hover {
+.btn:hover,input[type=submit]:hover {
     background-color: var(--color-king-blue);
     color: white;
 }
 
-.btn:active {
+.btn:active,input[type=submit]:active {
     background-color: rgba(0, 0, 0, 0.404);
 }
 
 /* Body End */
 
 /* About Me Start*/
+#about-me-content{
+    display: flex;
+    flex-direction: column;
+}
 .about-me-section {
     margin-top: 10%;
     margin-left: 10%;
-    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-bottom: 5rem;
 
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
     overflow: hidden;
 }
 
 .about-me-section #img-back {
-    position: absolute;
-    z-index: -1;
-    height:41rem;
+    
+    height:38rem;
     width: 41rem;
     background-color: var(--color-king-blue);
     border-radius: 41% 59% 23% 77% / 74% 37% 63% 26% ;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-article {
-    width: 35vmax;
-    margin-left: 5%;
-    align-self: center;
-}
-
-.about-me{
+.about-me-title{
     text-align: start;
     margin-bottom: 2rem;
+}
+
+article {
+    width: 35vmax;
+    margin-left: 5rem;
+    align-self: center;
 }
 
 
@@ -236,8 +243,9 @@ article {
 
 .title-background {
     width: 80%;
-    margin-bottom: 3%;
-    margin-top: 3%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 
     display: flex;
     flex-direction: column;
@@ -271,8 +279,6 @@ article {
 }
 
 .story-image {
-    width: 16vmax;
-    height: 450px;
     margin-bottom: 2rem;
     margin-right: 2rem;
     
@@ -304,8 +310,7 @@ article {
     width: 15%;
     margin-top: 5rem;
     font-size: larger;
-
-}
+    }
 
 #story1.story-image{
     
