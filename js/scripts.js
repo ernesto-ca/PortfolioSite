@@ -1,9 +1,29 @@
 const indexContent = document.getElementById("about-me-content");
 const contentFrame = document.getElementById("content");
 const contentShow = document.getElementById("content-show");
-const contactTitle = "It would be a pleasure to meet you.";
-const experienceTitle = "The harder I work, the luckier I get.";
-const indexTitle = "Programming is my passion, Not my job.";
+const mainTitle = document.getElementById("mainTitle");
+
+const contactTitle = 'It would be a pleasure to contact you.';
+const experienceTitle = '"The harder I work, the luckier I get."';
+const defaultTitle = '"Programming is my passion, Not my job."';
+
+
+function locationHashChanged( e ) {
+  switch (location.hash) {
+    case '#contact':
+      mainTitle.innerText = contactTitle;
+      break;
+    case '#experience':
+      mainTitle.innerText = experienceTitle;
+      break;
+    default:
+      mainTitle.innerText = defaultTitle;
+      break;
+  }
+}
+
+window.onhashchange = locationHashChanged;
+
 
 /* Open */
 function openNav() {
@@ -29,4 +49,18 @@ function showPage(pageName) {
 function setContent() {
   contentShow.innerHTML = contentFrame.contentDocument.body.innerHTML;
   
+}
+
+function sendEmail(){
+  let name = document.getElementById("name").value; 
+  let comment = document.getElementById("comment").value; 
+  window.open('mailto:?subject="A new contact..."&body='+
+  "Hello  I'm " +name+
+  " and I'm writing you because, "+comment
+  );
+  return false;
+}
+
+function changeLanguage(){
+
 }

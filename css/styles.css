@@ -15,8 +15,6 @@
 
     /* Colors*/
     --color-king-blue: #1C237E;
-    --color-beau-blue:#C8E0F4;
-    --color-white:#FFFFFF;
     --color-black:#171817;
     /* Colors*/
 
@@ -86,7 +84,7 @@ nav {
 
 }
 .navbar li a:active {
-    background-color: var(--color-white);
+    background-color: white;
     color: var(--color-black);
    
 }
@@ -118,7 +116,7 @@ h1 {
     padding-bottom: 2rem;
     text-align: center;
 
-    color: var(--color-white);
+    color:white;
     font-family: var(--font-family-trispace);
     font-weight: 400;
     text-transform: uppercase;
@@ -143,6 +141,9 @@ body, body #index, body #content-show{
 h2,h3,h4{
     font-family: var(--font-family-trispace);
     line-height: 110%;
+}
+h5{
+    color: white;
 }
 h3 {
     margin: 2rem;

@@ -1,3 +1,14 @@
+#switch{
+    display: flex;
+    justify-content: flex-end;
+  
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#switch a {
+    width: fit-content;
+}
 .policy{
     width: 80%;
     margin-left: 10%;
@@ -15,3 +26,11 @@
    
 }
 
+#switch a.active{
+    background-color: var(--color-king-blue);
+    color: white;
+}
+
+#es{
+    display: none;
+}
