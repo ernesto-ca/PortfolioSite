@@ -29,17 +29,17 @@
     <!-- The overlay -->
     <div id="menu" class="overlay">
       <!-- Button to close the overlay navigation -->
-      <img class="nav-logo" src="images/logo.svg" alt="logo" />
+      <img class="nav-logo" src="images/logo_white.svg" alt="logo" />
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
         ><img src="images/icon-close.svg" alt="menu"
       /></a>
 
       <!-- Overlay content -->
       <div class="overlay-content">
-        <li><a href="#about-me-content" onclick="showPage('about-me-content')">About me</a></li>
-        <li><a  href="#contact" onclick="showPage('contact')">Contact me</a></li>
-        <li><a href="#experience" onclick="showPage('experience')">Experience</a></li>
-        <li><a href="#policy" onclick="showPage('policy')">Policy</a></li>
+        <li><a href="#about-me-content" onclick="showPage('about-me-content'); closeNav();">About me</a></li>
+        <li><a  href="#contact" onclick="showPage('contact'); closeNav();">Contact me</a></li>
+        <li><a href="#experience" onclick="showPage('experience'); closeNav();">Experience</a></li>
+        <li><a href="#policy" onclick="showPage('policy'); closeNav();">Policy</a></li>
       </div>
     </div>
     <!-- The overlay -->
@@ -86,7 +86,7 @@
   
           <div class="story-image" id="story1">
             <img
-              src="images/my_background/highschool.jpg"
+              src="images/desktop/my_background/highschool.jpg"
               alt="I'm really concentrated!"
             />
           </div>
@@ -95,7 +95,7 @@
         <div class="story">
           <div class="story-image" id="story2">
             <img
-              src="images/my_background/university.png"
+              src="images/desktop/my_background/university.png"
               alt="I'm very excited!"
             />
           </div>
@@ -123,7 +123,7 @@
   
     </section>
     <section id="content-show"></section>
-    <img class="footer-wave" src="../images/waves/footer_wave.svg" />
+    <img class="footer-wave" src="images/waves/footer_wave.svg" />
     <footer>
       <img class="logo-foot" src="images/logo_white.svg" alt="logo" />
 
@@ -135,7 +135,7 @@
       </ul>
 
       <div class="icons">
-        <a href="#"
+        <a href="https://www.linkedin.com/in/ernesto-ca/"
           ><img
             class="social"
             src="images/icon-linkedin.svg"
@@ -143,7 +143,7 @@
             height="41px"
             width="41px"
         /></a>
-        <a href="#"
+        <a href="https://github.com/ernesto-ca"
           ><img
             class="social"
             src="images/icon-github.svg"
@@ -151,20 +151,21 @@
             height="41px"
             width="41px"
         /></a>
-        <a href="#"
+        <a href="https://play.google.com/store/apps/dev?id=6479289122949762268"
           ><img
             class="social"
             src="images/icon-playstore.svg"
             alt="playstore"
             height="41px"
-            width="41px"
+            width="41px" 
         /></a>
       </div>
 
       <h5>© 2022 Ec</h5>
     </footer>
 
-    <iframe src="" seamless id="content" style="display: none;" onload="setContent()"></iframe>
-    <script src="./js/scripts.js" ></script>
+    
+    <iframe src="" id="content" style="display: none;" onload="setContent()" seamless></iframe>
+    <script src="js/scripts.js" ></script>
   </body>
 </html>

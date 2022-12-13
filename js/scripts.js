@@ -22,7 +22,9 @@ function locationHashChanged( e ) {
   }
 }
 
+
 window.onhashchange = locationHashChanged;
+
 
 
 /* Open */
@@ -54,13 +56,38 @@ function setContent() {
 function sendEmail(){
   let name = document.getElementById("name").value; 
   let comment = document.getElementById("comment").value; 
-  window.open('mailto:?subject="A new contact..."&body='+
+  window.open('mailto:ernesto.cabanas.dev@gmail.com?subject="A new contact..."&body='+
   "Hello  I'm " +name+
   " and I'm writing you because, "+comment
   );
   return false;
 }
 
-function changeLanguage(){
-
+function changeLanguage(sLanguage){
+  let language = sLanguage.innerText;
+  if(language==='EN'){
+   document.getElementById("es").style.display = "none";
+   document.getElementById("en").style.display = "block";
+   if(!sLanguage.classList.contains("active")){
+    document.getElementById("switchEs").classList.toggle("active"); // deactivate
+    document.getElementById("switchEn").classList.toggle("active");
+    }
+  }else{
+    document.getElementById("en").style.display = "none";
+    document.getElementById("es").style.display = "block";
+    if(!sLanguage.classList.contains("active")){
+      document.getElementById("switchEn").classList.toggle("active");// deactivate
+      document.getElementById("switchEs").classList.toggle("active");
+      }
+  
+  }
+ 
 }
+
+// Event scripts
+
+function onLoadHash( e ) {
+  showPage(location.hash.replace('#',''));
+}
+window.onload = onLoadHash;
+
