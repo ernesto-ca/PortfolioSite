@@ -7,7 +7,6 @@ const contactTitle = 'It would be a pleasure to contact you.';
 const experienceTitle = '"The harder I work, the luckier I get."';
 const defaultTitle = '"Programming is my passion, Not my job."';
 
-
 function locationHashChanged( e ) {
   switch (location.hash) {
     case '#contact':
@@ -84,10 +83,4 @@ function changeLanguage(sLanguage){
  
 }
 
-// Event scripts
-
-function onLoadHash( e ) {
-  showPage(location.hash.replace('#',''));
-}
-window.onload = onLoadHash;
 
