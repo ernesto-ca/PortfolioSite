@@ -141,7 +141,7 @@ body #content-show {
 }
 
 #content-show {
-    padding: 0rem;
+    padding: 1rem;
 }
 
 h2,
@@ -718,6 +718,7 @@ h5 {
 @media only screen and (max-width: 900px),
 (orientation: portrait) {
 
+    
     /* Navigation Start*/
     nav {
         width: 100%;
@@ -928,54 +929,63 @@ h5 {
     /* Section story-images End*/
 
     /* Footer Starts*/
+    .footer-wave
+    {
+       display: none;
+    }
+
     footer {
-        padding-top: 8vmax;
         width: inherit;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
-        position: unset;
+       
     }
 
     .logo-foot {
         position: unset;
         align-self: center;
-        width: 20vmax;
-        margin-bottom: 2vmax;
+        width: 5vmax;
+        margin-bottom: 1vmax;
+        content:url("../images/logo.svg");
     }
 
     .icons {
-        margin-top: 5vmax;
         align-self: center;
         position: unset;
-        margin-bottom: 2vmax;
+        margin: 1vmax;
     }
 
     .icons a {
-        margin-right: 2vmax;
+        margin-right: 1vmax;
+    }
+
+    .icons a:nth-child(1) img{ /* Linkedin */  
+        content:url("../images/mobile/icon-linkedin.svg");
+    }
+    .icons a:nth-child(2) img{ /* Github */  
+        content:url("../images/mobile/icon-github.svg");
+    }
+    .icons a:nth-child(3) img{ /* Playstore */  
+        content:url("../images/mobile/icon-playstore.svg");
     }
 
     .nav-footer {
-        position: unset;
-        margin-right: 0;
-        font-size: medium;
-        flex-flow: column wrap;
-        justify-content: center;
+      display: none;
     }
 
-    .nav-footer li {
+    /* .nav-footer li {
         align-self: center;
         display: inline;
         float: left;
-        margin-bottom: 2vmax;
     }
 
     .nav-footer li a {
         color: white;
         text-align: center;
         text-decoration: none;
-    }
+    } */
 
     h5 {
         position: unset;
