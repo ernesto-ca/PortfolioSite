@@ -1,0 +1,102 @@
+{
+  "Android": {
+    "type": "tech",
+    "shortDescription": "Strong knowledge in Jetpack Compose, Retrofit, Ktor, Dagger Hilt, and more."
+  },
+  "Kotlin": {
+    "type": "tech",
+    "shortDescription": "Proficient in Kotlin, used for Android development withe the powerful coroutines."
+  },
+  "Java": {
+    "type": "tech",
+    "shortDescription": "Experienced with reactive programming using RxJava for asynchronous tasks and the old Android development language."
+  },
+  "Agile": {
+    "type": "soft",
+    "shortDescription": "Skilled in Agile methodologies to enhance project management and collaboration."
+  },
+  "GraphQL": {
+    "type": "tech",
+    "shortDescription": "Proficient in GraphQL for building efficient APIs and querying data."
+  },
+  "Clean Architecture": {
+    "type": "tech",
+    "shortDescription": "Strong understanding of Clean Architecture principles for scalable and maintainable code."
+  },
+  "Flutter": {
+    "type": "tech",
+    "shortDescription": "Experienced in Flutter for cross-platform mobile app development."
+  },
+  "Git": {
+    "type": "tech",
+    "shortDescription": "Proficient in Git for version control and collaborative development."
+  },
+  "Linux": {
+    "type": "tech",
+    "shortDescription": "Strong knowledge of Linux systems, including command-line tools and server management."
+  },
+  "Scrum": {
+    "type": "soft",
+    "shortDescription": "Skilled in Scrum frameworks for iterative development and team coordination."
+  },
+  "Unit Testing": {
+    "type": "tech",
+    "shortDescription": "Experienced in writing unit tests to ensure code quality and reliability."
+  },
+  "Leadership": {
+    "type": "soft",
+    "shortDescription": "Demonstrated ability to lead teams, manage projects, and drive results."
+  },
+  "Communication": {
+    "type": "soft",
+    "shortDescription": "Strong verbal and written communication skills for effective collaboration."
+  },
+  "Teamwork": {
+    "type": "soft",
+    "shortDescription": "Skilled in working collaboratively within diverse teams to achieve common goals."
+  },
+  "Autodidact": {
+    "type": "soft",
+    "shortDescription": "Self-taught learner with a passion for continuous skill development and problem-solving."
+  },
+  "Problem Solving": {
+    "type": "soft",
+    "shortDescription": "Adept at analyzing complex problems and developing innovative solutions."
+  },
+  "Typescript": {
+    "type": "tech",
+    "shortDescription": "Proficient in TypeScript for type-safe JavaScript development."
+  },
+  "Vanilla JavaScript": {
+    "type": "tech",
+    "shortDescription": "Experienced in Vanilla JavaScript for Chrome Plugins and Backend development."
+  },
+  "React": {
+    "type": "tech",
+    "shortDescription": "Experienced in React for building dynamic and responsive user interfaces."
+  },
+  "Next.js": {
+    "type": "tech",
+    "shortDescription": "Skilled in Next.js for server-side rendering, static site generation, and full-stack applications."
+  },
+  "Nodejs": {
+    "type": "tech",
+    "shortDescription": "Experienced in Nodejs for backend development including expressjs."
+  },
+  "MUI": {
+    "type": "tech",
+    "shortDescription": "Proficient in Material-UI (MUI) for designing consistent and modern UI components."
+  },
+  "MaterialDesign3": {
+    "type": "tech",
+    "shortDescription": "Knowledgeable in Material Design 3 for creating visually appealing and functional designs."
+  },
+  "Python": {
+    "type": "tech",
+    "shortDescription": "Experienced in Python for scripting, automation, data analysis, and backend development."
+  },
+  "Django": {
+    "type": "tech",
+    "shortDescription": "Proficient in Django Framework for backend development."
+  }
+}

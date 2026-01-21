@@ -1,0 +1,15 @@
+{
+  "email": "ernestocabanasdev@gmail.com",
+  "aboutme": "I’m a passionate and adaptable Senior Software Engineer with a strong foundation in Android development, fullstack web technologies, and enterprise systems. With hands-on experience leading development teams, modernizing architectures, and mentoring others, I thrive in dynamic environments where innovation meets impact. My expertise spans mobile app development with Jetpack Compose, web applications using modern stacks, and process automation within corporate systems—all backed by a deep commitment to clean code, continuous learning, and user-centered solutions.",
+  "background": {
+    "description": "My passion for technology began in high school, where I immersed myself in programming, algorithms, and web development.",
+    "fullDescription": "This journey continued at Collage, where I studied Computer Systems Engineering, expanding my knowledge of hardware, networks, and software development. In December 2021, I successfully completed my degree and ready to embrace new challenges along my professional career. Along the way, I discovered a love for continuous learning, fueling my growth through platforms like Udemy, Coursera, and Google Codelabs. This drive led me to innovation tournaments, where I developed 'YOVIGILO,' an Android app enhancing neighborhood safety through real-time chat and GPS tracking."
+  },
+  "hobbies": {
+    "description": "My greatest joy is spending time with my wife and daughter—they’re my inspiration and drive. I’m a passionate gamer and a music lover who enjoys playing piano and guitar."
+  },
+  "education": {
+    "description": "I'm a lifelong learner with a strong passion for emerging software trends like AI, ARCore, Kotlin Multiplatform (KMP), and React.",
+    "fullDescription": "The recent AI boom inspired me to pursue a master’s in Data Science and AI, where I actively apply what I learn to both work and personal projects."
+  }
+}

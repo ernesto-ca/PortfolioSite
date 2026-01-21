@@ -1,0 +1,57 @@
+[
+  {
+    "id": "intro",
+    "title": {
+      "es": "POLÍTICA DE PRIVACIDAD",
+      "en": "PRIVACY POLICY"
+    },
+    "body": {
+      "es": "La presente Política de Privacidad establece los términos en que Ec usa y protege la información que es proporcionada por sus usuarios al momento de utilizar las aplicaciones o sitios web. Como desarrolladora independiente, Ec se compromete a salvaguardar la seguridad de los datos de sus usuarios. Cuando es requerido llenar los campos de información personal con la cual usted pueda ser identificado, se hace asegurando que sólo se emplea de acuerdo con los términos de este documento. Sin embargo, esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.",
+      "en": "This Privacy Policy establishes the terms in which Ec uses and protects the information that is provided by its users when using the applications or websites. As an independent developer, Ec is committed to safeguarding the security of its users' data. When it is required to fill in the personal information fields by which you can be identified, it is done by ensuring that it is only used in accordance with the terms of this document. However, this Privacy Policy may change over time or be updated, so we recommend and emphasize that you continually review this page to ensure that you agree to any such changes."
+    }
+  },
+  {
+    "id": "collected_info",
+    "title": {
+      "es": "INFORMACIÓN QUE ES COLECTADA",
+      "en": "INFORMATION THAT IS COLLECTED"
+    },
+    "body": {
+      "es": "Por el momento los desarrollos realizados por Ec no registran ningún dato personal o relacionado a datos de carácter personal. Sin embargo, si se recolecta datos como: el uso de la aplicación o sitio web, rendimiento, errores, etc.",
+      "en": "At the moment, the developments carried out by Ec do not record any personal data or data related to personal data. However, if data is collected such as: the use of the application or website, performance, errors, etc."
+    }
+  },
+  {
+    "id": "use_collected_info",
+    "title": {
+      "es": "USO DE LA INFORMACIÓN COLECTADA",
+      "en": "USE OF COLLECTED INFORMATION"
+    },
+    "body": {
+      "es": "Con el fin de calidad de desarrollo y colección de errores para proporcionar el mejor servicio posible, particularmente en mejorar los productos y servicios que ofrece Ec.",
+      "en": "In order to improve the quality of development and the collection of errors to provide the best possible service, particularly in the improvement of the products and services offered by Ec."
+    }
+  },
+  {
+    "id": "links_third_party",
+    "title": {
+      "es": "ENLACES A TERCEROS",
+      "en": "LINKS TO THIRD PARTIES"
+    },
+    "body": {
+      "es": "Los sitios web y aplicaciones desarrolladas pudieran contener enlaces a otros sitios que pudieran ser de su interés. Una vez que usted dé clic en estos enlaces y abandone nuestra página, ya no tenemos control sobre al sitio al que es redirigido y por lo tanto no somos responsables de los términos o privacidad ni de la protección de sus datos en esos otros sitios/aplicaciones de terceros. Dichos sitios/aplicaciones están sujetos a sus propias políticas de privacidad por lo cual es recomendable que los consulte para confirmar que usted está de acuerdo con estas.",
+      "en": "The websites and applications developed may contain links to other sites that may be of interest to you. Once you click on these links and leave our page, we no longer have control over the site you are redirected to and are therefore not responsible for the terms, privacy or data protection of those other sites/applications. . from third parties. These sites/applications are subject to their own privacy policies, so it is recommended that you consult them to confirm that you agree with them."
+    }
+  },
+  {
+    "id": "control_info",
+    "title": {
+      "es": "CONTROL DE SU INFORMACIÓN PERSONAL",
+      "en": "CONTROL OF YOUR PERSONAL INFORMATION"
+    },
+    "body": {
+      "es": "En cualquier momento usted puede restringir la recopilación o el uso de la información personal que es proporcionada a los productos que proporciona Ec. Cada vez que se le solicite rellenar un formulario, como el de alta de usuario, puede marcar o desmarcar la opción de recibir información por correo electrónico.\n\nEc no venderá, cederá, ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con una orden judicial.\n\nEc Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.",
+      "en": "At any time you can restrict the collection or use of personal information that is provided to the products provided by Ec. Every time you are asked to fill in a form, such as user registration, you can check or uncheck the option to receive information by email.\n\nEc will not sell, transfer or distribute the personal information that is collected without your consent, unless required by a judge with a court order.\n\nEc reserves the right to change the terms of this Privacy Policy at any time."
+    }
+  }
+]
