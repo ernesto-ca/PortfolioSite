@@ -1,0 +1,127 @@
+[
+  {
+    "category": "professional",
+    "title": "Senior Software Developer Engineer",
+    "company": "Zillow",
+    "dateRange": "Aug 2025 - Present",
+    "description": "Part of a team that is modernizing the app using Jetpack Compose and Kotlin while improving the app's performance and user experience witha new upcoming huge feature.",
+    "fullDescription": "As Senior Software Developer Engineer, I work on a team that is modernizing the a key company feature for Android app, using AI assistants to improve my current work and deliver faster results. I also mange core SLOs and documentation of the feature in order to have a high quality product.",
+    "technologies": [
+      "Jetpack Compose",
+      "Kotlin",
+      "MVVM",
+      "SOLID",
+      "Coroutines",
+      "Flows",
+      "Cloude Sonnet",
+      "Gemini AI",
+      "DataDog",
+      "GraphQL"
+    ]
+  },
+  {
+    "category": "professional",
+    "title": "Senior Android Developer",
+    "company": "Petco",
+    "dateRange": "Feb 2023 - Aug 2025",
+    "description": "I lead the redesign of core app features using Jetpack Compose and Kotlin while managing a small team of developers.",
+    "fullDescription": "I led the redesign of critical features like checkout, registration, and login using Jetpack Compose and Kotlin, which cut transaction times by 25%. I also manage a team of 3 developers, handling technical interviews and mentoring the team on modern Android concepts like Coroutines and Flows to ensure high-quality, scalable code.",
+    "technologies": [
+      "Jetpack Compose",
+      "Kotlin",
+      "MVVM",
+      "SOLID",
+      "Coroutines",
+      "Flows",
+      "Adobe Analytics",
+      "DataDog"
+    ]
+  },
+  {
+    "category": "professional",
+    "title": "Software Engineer",
+    "company": "Deloitte",
+    "dateRange": "Jun 2021 - Feb 2023",
+   "description": "I developed SAP ERP solutions and automated testing workflows to improve data reliability and banking service integration.",
+    "fullDescription": "I worked on SAP ERP solutions using ABAP to optimize employee management and revenue analysis. I also automated web and API testing using tools like Selenium and Postman, and wrote Python scripts that sped up analytics processing by 30% to improve decision-making.",
+    "technologies": [
+      "SAP ABAP",
+      "SQL",
+      "Selenium",
+      "Postman",
+      "ReadyAPI",
+      "Python"
+    ]
+  },
+  {
+    "category": "freelance",
+    "title": "Fullstack Web Developer",
+    "company": "ECOMED",
+    "dateRange": "Jun 2023 - Oct 2024",
+    "description": "Part of a team that developed a web app for wherehouse management, deliveries and inventory control.",
+    "fullDescription": "I was responsible for the development of the web app using React, Next.js, and MUI. I handled everything from server infrastructure on DigitalOcean to integrating with the client's GraphQL API. I also made middlewares using Passport.js for authentication and authorization.",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "NGINX",
+      "Node.js",
+      "Prisma",
+      "GraphQL"
+    ]
+  },
+    {
+    "category": "freelance",
+    "title": "Fullstack Web Developer",
+    "company": "KingdomSmurfs",
+    "dateRange": "Jan 2023 - Dec 2023",
+    "description": "I built and managed full-stack web application for e-commerce using React, Next.js, and cloud infrastructure.",
+    "fullDescription": "As part of the team I was in charge of the development of the full-stack web app for e-commerce using React, Next.js, and MUI. I handled everything from server infrastructure on DigitalOcean to integrating Stripe payments and setting up Sanity CMS for client content management.",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Stripe",
+      "NGINX",
+      "Node.js",
+      "Sanity CMS"
+    ]
+  },
+  {
+    "category": "personal",
+    "title": "Android Developer (Movie Info App)",
+    "company": "TopMovies",
+    "dateRange": "Aug 2021 - Present",
+    "description": "I launched a native Android app on the Play Store that provides comprehensive movie information using modern architectural patterns.",
+    "fullDescription": "I developed a native Android app to track movie info, starting in Java and modernizing it to Kotlin with MVVM architecture. It uses Retrofit for API data, Room for offline storage, and Dagger Hilt for dependency injection to keep things modular and efficient.",
+    "technologies": [
+      "Java",
+      "Kotlin",
+      "MVVM",
+      "Retrofit",
+      "Jetpack Compose",
+      "TMDB API"
+    ]
+  },
+  {
+    "category": "opensource",
+    "title": "Contributor",
+    "company": "OpenCompose",
+    "dateRange": "2023 - 2024",
+    "description": "Since 2020, I’ve actively contributed to the open-source community through a collaborative project.",
+    "fullDescription": "I contributed to the documentation of the project and Android compose components in the project using MDX and Javascript, A project by and for the Spanish-speaking community where we try to be the largest open source database that allows you to use and understand each of the components of Jetpack Compose.",
+    "technologies": ["Astro", "MDX", "JavaScript"]
+  },
+    {
+    "category": "opensource",
+    "title": "Competitor",
+    "company": "Geminotes",
+    "dateRange": "Sep 2024 - Dec 2024",
+    "description": "Google Gemini API Competition for chrome plugin using the new Gemini API for chrome based web engines.",
+    "fullDescription": "I participated in the Google Gemini API Competition for chrome plugin using the new Gemini API for chrome based web engines. Part of a team of 3 developers, we developed a chrome plugin that uses the Gemini API to create notes and organize them for specific content on the web. Aslo create summaries,and stract key points of the content of a custom selection of the page content.",
+    "technologies": ["TypeScript", "JavaScript", "React", "Vite", "Gemini API"]
+  }
+]
+
