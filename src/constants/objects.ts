@@ -9,7 +9,7 @@ export function convertSkillsToObjects(
 ): Skill[] {
   return Object.entries(skillsJson).map(([name, skill]) => ({
     name,
-    type: skill.type == "tech" ? "tech" : "soft",
+    type: skill.type === "tech" ? "tech" : "soft",
     description: skill.shortDescription,
   }));
 }

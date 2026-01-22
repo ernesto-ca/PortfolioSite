@@ -1,17 +1,8 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 
 import { styled } from "@mui/system";
-import { WAVES_BG_COLOR } from "../../constants/colors";
-import { getRandomValue } from "../../constants/utils";
 import { LOGO_WHITE } from "../../constants/images";
-import { useEffect, useState } from "react";
 
-const getRandomBorderRadius = () => {
-  return `${getRandomValue(40, 10)}% ${getRandomValue(
-    59,
-    12
-  )}% 0% 0% / ${getRandomValue(100, 50)}% ${getRandomValue(100, 50)}% 0% 0%`;
-};
 
 const AnimatedWave = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.primary.dark,

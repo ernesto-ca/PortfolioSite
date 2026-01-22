@@ -96,7 +96,7 @@ const DefaultTheme = createTheme({
         outlined: ({ ownerState, theme }) => ({
           "&:hover": {
             backgroundColor:
-              ownerState.color != undefined && ownerState.color != "inherit"
+              ownerState.color !== undefined && ownerState.color !== "inherit"
                 ? theme.palette[ownerState.color].main
                 : "primary",
           },
@@ -115,7 +115,7 @@ const DefaultTheme = createTheme({
           border: "1px solid",
           padding: "1rem 1.5rem",
           borderColor:
-            ownerState.color != undefined
+            ownerState.color !== undefined
               ? theme.palette[ownerState.color].main
               : "inherit",
         }),
@@ -132,7 +132,7 @@ const DefaultTheme = createTheme({
           padding: "0.25rem 0",
           marginTop: 16,
           borderColor:
-            ownerState.color != undefined
+            ownerState.color !== undefined
               ? theme.palette[ownerState.color].main
               : "inherit",
         }),
@@ -146,7 +146,7 @@ const DefaultTheme = createTheme({
         root: ({ ownerState, theme }) => ({
           fontFamily: "Space Mono",
           color:
-            ownerState.color != undefined
+            ownerState.color !== undefined
               ? theme.palette[ownerState.color].main
               : "inherit",
         }),

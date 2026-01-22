@@ -21,25 +21,25 @@ const StyledCard = styled(Card)<{
   },
 }));
 
-interface SkillCard {
+interface SkillCardProps {
   skill: Skill;
 }
 
-const SkillCard = ({ skill }: SkillCard) => {
+const SkillCard = ({ skill }: SkillCardProps) => {
   return (
-    <StyledCard isTech={skill.type == "tech"}>
+    <StyledCard isTech={skill.type === "tech"}>
       <CardContent sx={{ textAlign: "start", padding: "1rem" }}>
         <Typography
           variant="h4"
           mb={4}
-          color={skill.type == "tech" ? "white" : "primary"}
+          color={skill.type === "tech" ? "white" : "primary"}
           style={{ fontWeight: "bold" }}
         >
           {skill.name}
         </Typography>
         <Typography
           variant="body2"
-          color={skill.type == "tech" ? "white" : "primary"}
+          color={skill.type === "tech" ? "white" : "primary"}
         >
           {skill.description}
         </Typography>

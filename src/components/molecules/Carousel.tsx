@@ -40,8 +40,8 @@ interface CarouselProps extends PropsWithChildren {
 
 const Carousel = ({ props, children, enableFullScreen = false, slidesToShow }: CarouselProps) => {
 
-  const modalSliderRef = useRef<Slider | null>(null);
-  const [settings, _] = useState<Settings>({
+  const modalSliderRef = useRef<Slider | null>(null); // This variable is declared but not used in the provided snippet.
+  const [settings] = useState<Settings>({
     dots: false,
     infinite: true,
     speed: 500,

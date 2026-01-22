@@ -17,10 +17,10 @@ import { getCompanyImages } from "@ec/utils/imageLoader";
 
 const AboutMe = () => {
   let techSkills = convertSkillsToObjects(skillsJson).filter(
-    (skill) => skill.type == "tech"
+    (skill) => skill.type === "tech"
   );
   let softSkills = convertSkillsToObjects(skillsJson).filter(
-    (skill) => skill.type == "soft"
+    (skill) => skill.type === "soft"
   );
 
   let certificates = getCompanyImages("certificates") || [];

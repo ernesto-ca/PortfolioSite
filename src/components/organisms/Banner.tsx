@@ -1,9 +1,9 @@
-import Box, { BoxProps } from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import { alpha } from "@mui/material/styles";
 
 import { PropsWithChildren } from "react";
 
-import { DESKTOP_STATUS_BAR, ImageProps } from "../../constants/images";
+import { DESKTOP_STATUS_BAR } from "../../constants/images";
 
 import { DESKTOP_CAMERA, BANNER_IMAGE_DESKTOP } from "../../constants/images";
 import { styled } from "@mui/system";
