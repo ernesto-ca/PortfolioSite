@@ -33,7 +33,10 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --verbose
+        env:
+          CI: true
+          NPM_CONFIG_LOGLEVEL: info
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
