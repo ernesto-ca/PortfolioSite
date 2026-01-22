@@ -1,7 +1,8 @@
-import { Link, SxProps, Theme, Stack, styled } from "@mui/material";
+import { SxProps, Theme, Stack, styled } from "@mui/material";
+import { Link as RouterLink } from "react-router-dom";
 import { ReactNode } from "react";
 
-const StyledLink = styled(Link)<{ $isActive: boolean }>(
+const StyledLink = styled(RouterLink)<{ $isActive: boolean }>(
   ({ theme, $isActive }) => ({
     color: $isActive ? theme.palette.primary.dark : "white",
     padding: theme.spacing(2),
@@ -28,7 +29,7 @@ export interface NavbarLinkProps {
 
 export const NavbarLink = ({ href, name, icon, isActive, sx }: NavbarLinkProps) => (
   <StyledLink
-    href={href} 
+    to={href} 
     target={href.length >= 1 ? "_self" : "_blank"}
     $isActive={isActive ? true : false}
     sx={sx}

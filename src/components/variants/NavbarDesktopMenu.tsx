@@ -2,7 +2,7 @@ import Stack from "@mui/material/Stack";
 
 import NavbarLink, { NavbarLinkProps } from "../molecules/NavbarLink";
 import { styled, Tab, Tabs } from "@mui/material";
-
+import * as URLS from "@ec/constants/urls";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 const StyledMenu = styled(Stack)(({ theme }) => ({
@@ -31,11 +31,11 @@ const NavbarDesktopMenu = ({ links }: NavbarDesktopMenuProps) => {
     } else {
        // Handle cases where path might not match exactly or valid default
        // For now, if no match (e.g. 404), maybe keep last or set to -1
-       const activeIndex = links.findIndex(link => location.pathname.startsWith(link.href) && link.href !== "/");
+       const activeIndex = links.findIndex(link => location.pathname.startsWith(link.href) && link.href !== URLS.INDEX);
         if (activeIndex !== -1) {
             setValue(activeIndex);
-        } else if (location.pathname === "/") {
-            const homeIndex = links.findIndex(link => link.href === "/"); // or About if default
+        } else if (location.pathname === URLS.INDEX) {
+            const homeIndex = links.findIndex(link => link.href === URLS.INDEX); // or About if default
             if(homeIndex !== -1) setValue(homeIndex);
         }
     }

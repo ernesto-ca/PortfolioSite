@@ -3,7 +3,7 @@ export interface ImageProps {
   alt: string;
 }
 
-export const ROOT: string = "/images/";
+export const ROOT: string = "/PortfolioSite/images/";
 
 export const BANNER_IMAGE_DESKTOP: ImageProps = {
   src: `${ROOT}banner.png`,

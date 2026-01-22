@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={DefaultTheme}>
       <CssBaseline enableColorScheme />
-      <BrowserRouter>
+      <BrowserRouter basename="/PortfolioSite">
         <App />
       </BrowserRouter>
     </ThemeProvider>
