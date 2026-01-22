@@ -26,7 +26,7 @@ const CardContainer = styled(Box)(({ theme }) => ({
     boxShadow:
       "0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3)",
   },
-  [theme.breakpoints.up("md")]: {
+  [theme.breakpoints.up("xl")]: {
     flexDirection: "row",
     alignItems: "stretch",
     justifyContent: "space-between", 
@@ -36,7 +36,7 @@ const CardContainer = styled(Box)(({ theme }) => ({
 const ImageArea = styled(Box)(({ theme }) => ({
   width: "100%",
   aspectRatio: "16 / 9",
-  [theme.breakpoints.up("md")]: {
+  [theme.breakpoints.up("xl")]: {
     width: "40%",   
     minWidth: "300px", 
     maxWidth: "400px", 

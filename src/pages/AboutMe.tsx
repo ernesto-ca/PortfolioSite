@@ -93,7 +93,7 @@ const AboutMe = () => {
                 src={certificate}
                 alt="Certificate"
                 sx={{
-                padding: {xs: "0", lg: "0 32rem"}
+                padding: {xs: "0", xl: "0 32rem"}
                 }}
             />
            ))}
