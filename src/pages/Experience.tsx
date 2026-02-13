@@ -27,7 +27,7 @@ const Experience = () => {
 
   return (
     <PageContainer>
-      <Box sx={{ width: "100%", padding: "2rem" }}> 
+      <Box sx={{ width: "100%", padding: { xs: 0, md: "2rem" } }}> 
         <header style={{ marginBottom: "2rem" }}>
           <Tabs
             value={tabValue}

@@ -7,7 +7,10 @@ interface StyledPageProps {
 }
 
 const StyledPage = styled(Box)(({ theme }) => ({
-  padding: theme.spacing(8),
+  padding: theme.spacing(2),
+  [theme.breakpoints.up("md")]: {
+    padding: theme.spacing(8),
+  },
   background: theme.palette.background.default,
 }));
 

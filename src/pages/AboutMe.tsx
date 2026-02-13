@@ -27,8 +27,8 @@ const AboutMe = () => {
 
   return (
     <PageContainer>
-      <Stack spacing={4} pb={6}>
-        <Stack direction="column" spacing={8} mb={4} alignItems="center">
+      <Stack spacing={{ xs: 2, md: 4 }} pb={{ xs: 2, md: 6 }}>
+        <Stack direction="column" spacing={{ xs: 4, md: 8 }} mb={{ xs: 2, md: 4 }} alignItems="center">
               <WaveBlob>
             <Box
                 component="img"
@@ -44,7 +44,7 @@ const AboutMe = () => {
             direction="column"
             alignSelf="center"
             sx={(theme) => ({
-                paddingInline: theme.spacing(4),
+                paddingInline: { xs: theme.spacing(2), md: theme.spacing(4) },
             })}
             >
             <Typography variant="h2" textAlign="center">

@@ -22,7 +22,7 @@ const Policy = () => {
 
   return (
     <PageContainer>
-        <Box sx={{ width: "100%", padding: "1rem" }}>
+        <Box sx={{ width: "100%", padding: { xs: 0, md: "1rem" } }}>
              <Fade in={true} key={lang} timeout={500}>
                 <Box>
                     {policyData.map((section) => (

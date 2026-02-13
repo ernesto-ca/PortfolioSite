@@ -42,7 +42,7 @@ const Contact = () => {
             flexDirection: "column", 
             alignItems: "center", 
             margin: "0 auto", 
-            padding: "1rem",
+            padding: { xs: 0, md: "1rem" },
             minHeight: "60vh",
             justifyContent: "center",
             width: "100%",
