@@ -126,19 +126,19 @@ const MaterialCard = ({
           }}
         >
           <div>
-            <Typography variant="h6" sx={{ fontWeight: 500 }}>
+            <Typography variant="h6" sx={{ fontWeight: 500, fontSize: { xs: "18px", sm: "1.25rem" } }}>
               {title}
             </Typography>
             {subtitle && (
                 <Typography
                 variant="subtitle2"
-                sx={{ fontWeight: "bold", color: theme.palette.text.secondary }}
+                sx={{ fontWeight: "bold", color: theme.palette.text.secondary, fontSize: { xs: "14px", sm: "0.875rem" } }}
                 >
                 {subtitle}
                 </Typography>
             )}
             {dateRange && (
-                <Typography variant="caption" sx={{ color: theme.palette.text.secondary, opacity: 0.7 }}>
+                <Typography variant="caption" sx={{ color: theme.palette.text.secondary, opacity: 0.7, fontSize: { xs: "14px", sm: "0.75rem" } }}>
                 {dateRange}
                 </Typography>
             )}
@@ -160,6 +160,7 @@ const MaterialCard = ({
                 color: theme.palette.text.secondary, 
                 marginBottom: "1rem",
                 lineHeight: 1.6,
+                fontSize: { xs: "14px", sm: "1rem" }
             }}
             >
             {description}
@@ -167,14 +168,14 @@ const MaterialCard = ({
         )}
 
         <Collapse in={expanded}>
-            <Typography variant="body2" sx={{ marginBottom: "1rem", color: theme.palette.text.secondary }}>
+            <Typography variant="body2" sx={{ marginBottom: "1rem", color: theme.palette.text.secondary, fontSize: { xs: "14px", sm: "0.875rem" } }}>
                 {fullDescription}
             </Typography>
              {technologies && (
                 <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5, mb: 2 }}>
                     {technologies.map(tech => (
                         <Box key={tech} sx={{ 
-                            fontSize: "0.75rem", 
+                            fontSize: { xs: "14px", sm: "0.75rem" }, 
                             bgcolor: theme.palette.action.selected, 
                             px: 1, 
                             py: 0.5, 

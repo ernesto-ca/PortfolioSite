@@ -107,11 +107,14 @@ const Contact = () => {
                         sx={{
                             "& .MuiOutlinedInput-root": {
                                 borderRadius: "12px",
-                                backgroundColor: theme.palette.background.paper,
-                                color: theme.palette.text.primary, 
+                                backgroundColor: "#ffffff",
                             },
                              "& .MuiInputBase-input": {
-                                color: theme.palette.text.primary,
+                                color: "#000000",
+                                "&::placeholder": {
+                                    color: "#666666",
+                                    opacity: 1,
+                                }
                             }
                         }}
                     />
