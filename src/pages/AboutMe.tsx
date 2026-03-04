@@ -85,7 +85,7 @@ const AboutMe = () => {
         <Typography variant="h2" textAlign="center" mt={4} mb={2}>
             Some of My Certificates
         </Typography>
-        <Carousel slidesToShow={1}>
+        <Carousel slidesToShow={1} enableFullScreen={true}>
            {certificates.map((certificate) => (
             <Box
                 key={certificate}

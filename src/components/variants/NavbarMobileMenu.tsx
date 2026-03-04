@@ -60,6 +60,7 @@ const NavbarMobileMenu = ({ links }: NavbarMobileMenuProps) => {
                     href={link.href}
                     name={link.name}
                     icon={undefined}
+                    sx={{ fontSize: "20px" }}
                   />
                 </ListItemButton>
               </ListItem>

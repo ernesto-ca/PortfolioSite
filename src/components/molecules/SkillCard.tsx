@@ -34,12 +34,14 @@ const SkillCard = ({ skill }: SkillCardProps) => {
           mb={4}
           color={skill.type === "tech" ? "white" : "primary"}
           style={{ fontWeight: "bold" }}
+          sx={{ fontSize: { xs: "18px", md: "2.125rem" } }}
         >
           {skill.name}
         </Typography>
         <Typography
           variant="body2"
           color={skill.type === "tech" ? "white" : "primary"}
+          sx={{ fontSize: "14px" }}
         >
           {skill.description}
         </Typography>
